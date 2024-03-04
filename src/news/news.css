@@ -1,0 +1,70 @@
+.App {
+    font-family: Arial, sans-serif;
+    text-align: center; /* Align all content to the center */
+  }
+  
+  header {
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+  }
+  
+  .main {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center the child elements horizontally */
+    align-items: center;
+
+  }
+  
+  .article {
+    background-color: #f9f9f9;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 1rem;
+    padding: 1rem;
+    max-width: 60vw;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    text-align: left; /* Align article content to the left */
+  }
+  
+  h2 {
+    margin-bottom: 0.5rem;
+  }
+  
+  .author {
+    font-style: italic;
+    margin-bottom: 0.5rem;
+  }
+  
+  .description {
+    margin-bottom: 1rem;
+  }
+  
+  .image {
+    display: block;
+    margin-bottom: 1rem;
+    max-width: 100%;
+    border-radius: 4px;
+  }
+  
+  .published-at {
+    margin-bottom: 0.5rem;
+    font-size: 0.8rem;
+  }
+  
+  .read-more {
+    color: #007bff;
+    text-decoration: none;
+    font-weight: bold;
+    display: inline-block;
+    transition: color 0.3s;
+  }
+  
+  .read-more:hover {
+    color: #0056b3;
+  }
+  
